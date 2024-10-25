@@ -12,23 +12,25 @@
       <h1>The National Horse Race</h1>
       <div class="section">
         <div class="horse">
-          <button id="blue-button" value="blue" aria-label="advance blue horse" aria-live="polite">Run!</button>
+          <button id="blue-button" data-color="blue">Blue</button>
 
           <div class="track"><img id="blue-horse" src="img/blue.png" alt="blue horse" /></div>
         </div>
         <div class="horse">
-          <button id="pink-button" value="pink" aria-label="advance pink horse" >Run!</button>
+          <button id="pink-button" data-color="pink">Pink</button>
           <div class="track"><img id="pink-horse" src="img/pink.jpg" alt="pink horse" /></div>
         </div>
         <div class="horse">
-          <button id="brown-button" value="brown" aria-label="advance brown horse" aria-live="polite">Run!</button>
+          <button id="brown-button" data-color="brown">Brown</button>
           <div class="track"><img id="brown-horse" src="img/brown.png" alt="brown horse" /></div>
         </div>
       </div>
-      <button id="restart-button" style="display: none;">Restart Game</button>
+      <button id="restart-button" style="display: none;">Restart</button>
+
       <div id="winner" aria-live="assertive" aria-atomic="true"></div>
     </div>
 
     <script src="script.js"></script>
   </body>
 </html>
+
