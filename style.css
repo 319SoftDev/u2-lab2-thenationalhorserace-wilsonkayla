@@ -63,3 +63,8 @@ button {
   padding: 10px;
   border-radius: 15px;
 }
+
+.race-track {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
